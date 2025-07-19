@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./ASSETS/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#c-logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#history{
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+#top-para{
+    padding-left: 480px;
+    padding-right: 480px;
+    text-align: center;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+#downloads{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#IOS{
+    margin-right: 30px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+#MAC{
+    margin-left: 30px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+#snippets-h1{
+    margin-top: 125px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    text-align: center;
+}
+
+#snippets-p{
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+#monitor{
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+
+#computer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#qs{
+    margin-bottom: 50px;
+}
+
+#is{
+    margin-bottom: 50px;
+}
+
+#ch{
+    margin-bottom: 50px;
+}
+
+
+#qs{
+    padding-left: 275px;
+    padding-right: 275px;
+}
+
+
+#is{
+    padding-left: 275px;
+    padding-right: 275px;
+}
+
+
+#ch{
+    padding-left: 275px;
+    padding-right: 275px;
+}
+
+#qs h2{
+    margin-bottom: 10px;
+}
+
+#is h2{
+    margin-bottom: 10px;
+}
+
+#ch h2{
+    margin-bottom: 10px;
+}
+
+#mid-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clipboard h1{
+    margin-top: 125px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    text-align: center;    
+}
+
+
+#clipboard p{
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+
+#feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 23px;
+}
+
+#feature p{
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+
+#text{
+    margin-top: 10px;
+}
+
+
+#preview{
+    margin-top: 10px;
+}
+
+
+#supercharge h1{
+    font-size: 38px;
+    text-align: center;  
+    margin-bottom: 20px;  
+}
+
+
+#supercharge p{
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+
+#companies{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+
+#cliposs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#clipmacios h1{
+    margin-top: 125px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    text-align: center; 
+}
+
+#clipmacios p{
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+
+#logos{
+    height: 50px;
+    width: 50px;
+    margin-left: 75px;
+}
+
+
+#ending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#socialmedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 75px;
+}
+
+
+#footerdiv{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(202, 49%, 92%);
+}
+
+#ending p{
+    margin-right: 40px;
+    opacity: 60%;
+}
+
+#socialmedia img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+
+#DIOS{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+#DMAC{
+    margin-left: 25px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:426px){
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./ASSETS/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#c-logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 135px;
+    margin-bottom: 30px;
+}
+
+#history{
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#top-para{
+    padding-left: 58px;
+    padding-right: 58px;
+    text-align: center;
+    line-height: 23px;
+    opacity: 60%;
+}
+
+#downloads{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#IOS{
+    margin-left: 115px;
+    margin-bottom: 50px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+#MAC{
+    margin-left: 115px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+#snippets-h1{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    text-align: center;
+}
+
+#snippets-p{
+    text-align: center;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-bottom: 48px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#monitor{
+    margin-left: 13px;
+    margin-top: 40px;
+    height: 250px;
+    margin-bottom:90px;
+}
+
+
+#computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#qs{
+    margin-bottom: 50px;
+}
+
+#is{
+    margin-bottom: 50px;
+}
+
+#ch{
+    margin-bottom: 50px;
+}
+
+#qs{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#is{
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+#ch{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#qs h2{
+    margin-bottom: 10px;
+    margin-left: -45px;
+    margin-right: -45px;
+}
+
+#is h2{
+    margin-bottom: 10px;
+    margin-left: -45px;
+    margin-right: -45px;
+}
+
+#ch h2{
+    margin-bottom: 10px;
+    margin-left: -65px;
+    margin-right: -65px;
+}
+
+#mid-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clipboard h1{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    text-align: center;    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#clipboard p{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#tab{
+    height: 250px;
+}
+
+
+
+#feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 23px;
+}
+
+#feature p{
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 23px;
+}
+
+
+
+#blacklist h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#text h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#preview h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#blacklist p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:-50px;
+    margin-right:-50px ;
+}
+
+
+#text p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:-50px;
+    margin-right:-50px ;
+}
+
+#preview p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:-50px;
+    margin-right:-50px ;
+}
+
+#text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+#preview{
+    margin-top: 10px;
+}
+
+
+#supercharge h1{
+    font-size: 38px;
+    text-align: center;  
+    margin-top: 60px;
+    margin-bottom: 20px;  
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+#supercharge p{
+    text-align: center;
+    padding-left: 225px;
+    padding-right: 225px;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+
+
+#companies{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:;
+    align-items:center ;
+    margin-bottom: 80px;
+}
+
+.mnc{
+    margin-top: 100px;
+}
+
+.google{
+    margin-top: -45px;
+}
+
+#cliposs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#clipmacios h1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    text-align: center; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#clipmacios p{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+/* #logos{
+    height: 50px;
+    width: 50px;
+    margin-left: 75px;
+}
+
+
+#ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 75px;
+}
+
+
+#footerdiv{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(202, 49%, 92%);
+}
+
+#ending p{
+    margin-right: 40px;
+}
+
+#socialmedia img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+
+} */
+
+
+#DIOS{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+#DMAC{
+    margin-left: 25px;
+    height: 45px;
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logos{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+
+#ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+#socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 75px;
+}
+
+
+#footerdiv{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(202, 49%, 92%);
+}
+
+#ending p{
+    margin-left: 75px;
+    margin-right: 40px;
+}
+
+.endingp{
+    margin-bottom: 25px;
+}
+
+
+#socialmedia img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.social{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+}
+
+
+
+
+
+}

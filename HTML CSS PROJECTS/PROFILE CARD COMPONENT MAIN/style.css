@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&family=Young+Serif&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 20px;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg-pattern-bottom.svg);
+    background-size: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+#container
+{
+    background-image: url(./assets/bg-pattern-top.svg);
+    background-repeat:repeat-x;
+    border-radius: 20px;
+}
+#container
+{
+    height: 55vh;
+    width: 25vw;
+    background-color: white;
+    background-image: url(./assets/bg-pattern-card.svg);
+}
+
+.photo
+{
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 142px;
+    margin-top: 90px;
+}
+
+.nameage
+{
+margin-top: 15px;
+margin-left: 120px;
+opacity: 80%;
+font-weight: 900;
+
+}
+
+.place
+{
+    margin-top: 10px;
+    margin-left: 160px;
+    opacity: 60%;
+}
+
+.numbers
+{
+    margin-left: 75px;
+    margin-top: 55px;
+    font-weight: 900;
+    opacity: 80%;
+}
+
+.stats
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+@media(max-width:426px){
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 20px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg-pattern-bottom.svg);
+    background-size: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+
+#container{
+    background-image: url(./assets/bg-pattern-top.svg);
+    background-repeat:repeat-x;
+    border-radius: 20px;
+}
+
+#container{
+    height: 70vh;
+    width: 85vw;
+    background-color: white;
+    background-image: url(./assets/bg-pattern-card.svg);
+}
+
+.photo{
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+.nameage{
+margin-top: 15px;
+margin-left: 110px;
+opacity: 80%;
+font-weight: 900;
+
+}
+
+.place{
+    margin-top: 10px;
+    margin-left: 150px;
+    opacity: 60%;
+}
+
+.numbers{
+    margin-left: 35px;
+    margin-top: 55px;
+    font-weight: 900;
+    opacity: 80%;
+}
+
+.stats{
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+}
