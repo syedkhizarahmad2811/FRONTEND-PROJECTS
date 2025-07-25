@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
 
-
-
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: "Inter", serif;
 }
 
-body{
+body {
     height: 125vh;
     width: 100vw;
     display: flex;
@@ -18,7 +16,7 @@ body{
     background-color: hsl(0, 0%, 8%);
 }
 
-#profilebox{
+#profilebox {
     height: 80vh;
     width: 50vh;
     display: flex;
@@ -29,8 +27,7 @@ body{
     border-radius: 15px;
 }
 
-
-#proimg{
+#proimg {
     height: 105px;
     margin-top: 35px;
     margin-left: -5px;
@@ -38,30 +35,29 @@ body{
     margin-bottom: 25px;
 }
 
-#name{
+#name {
     margin-bottom: 10px;
     color: hsl(0, 0%, 100%);
 }
 
-#place{
+#place {
     color: hsl(75, 94%, 57%);
     margin-bottom: 20px;
     font-weight: 600;
 }
 
-#about{
+#about {
     color: white;
     opacity: 80%;
     margin-bottom: 25px;
 }
 
-
-#buttons{
+#buttons {
     display: flex;
     flex-direction: column;
 }
 
-button{
+button {
     height: 40px;
     width: 245px;
     margin-bottom: 15px;
@@ -69,26 +65,23 @@ button{
     background-color: hsl(0, 0%, 30%);
 }
 
-a{
+a {
     color: white;
     opacity: 80%;
     text-decoration: none;
     font-weight: 700;
 }
 
+@media(max-width:426px) {
 
-@media(max-width:426px){
- 
-    *{
+    * {
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
         font-family: "Inter", serif;
     }
- 
- 
- 
-    body{
+
+    body {
         height: 100vh;
         width: 100vw;
         display: flex;
@@ -97,7 +90,7 @@ a{
         background-color: hsl(0, 0%, 8%);
     }
 
-    #profilebox{
+    #profilebox {
         height: 90vh;
         width: 60vh;
         display: flex;
@@ -107,8 +100,8 @@ a{
         background-color: hsl(0, 0%, 12%);
         border-radius: 15px;
     }
-    
-    #proimg{
+
+    #proimg {
         height: 105px;
         margin-top: 25px;
         margin-left: -5px;
@@ -116,43 +109,41 @@ a{
         margin-bottom: 25px;
     }
 
-
-    #name{
+    #name {
         margin-bottom: 10px;
         color: hsl(0, 0%, 100%);
     }
-    
-    #place{
+
+    #place {
         color: hsl(75, 94%, 57%);
         margin-bottom: 20px;
         font-weight: 600;
     }
-    
-    #about{
+
+    #about {
         color: white;
         opacity: 80%;
         margin-bottom: 25px;
     }
-    
-    
-    #buttons{
+
+    #buttons {
         display: flex;
         flex-direction: column;
     }
-    
-    button{
+
+    button {
         height: 40px;
         width: 245px;
         margin-bottom: 15px;
         border-radius: 5px;
         background-color: hsl(0, 0%, 30%);
     }
-    
-    a{
+
+    a {
         color: white;
         opacity: 80%;
         text-decoration: none;
         font-weight: 700;
     }
-    
+
 }

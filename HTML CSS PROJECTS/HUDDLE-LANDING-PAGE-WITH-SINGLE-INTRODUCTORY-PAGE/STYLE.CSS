@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-#container{
+#container {
     height: 100vh;
     width: 100vw;
     background-image: url(./ASSETS/bg-desktop.svg);
@@ -17,23 +17,23 @@
     /* background-color: hsl(300, 69%, 71%); */
 }
 
-#huddlepic{
+#huddlepic {
     margin-left: 75px;
     margin-top: 75px;
 }
 
-#flexbox{
+#flexbox {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#mockups img{
+#mockups img {
     margin-top: 35px;
     margin-left: 75px;
 }
 
-#text h1{
+#text h1 {
     margin-top: -80px;
     margin-bottom: 25px;
     margin-left: 120px;
@@ -44,7 +44,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-#text p{
+#text p {
     padding-left: 125px;
     padding-right: 115px;
     font-size: 18px;
@@ -54,92 +54,88 @@
     font-family: "Open Sans", sans-serif;
 }
 
-#rb{
+#rb {
     margin-top: 30px;
     margin-left: 135px;
     height: 50px;
     width: 200px;
     background-color: white;
-    color:hsl(257, 40%, 49%);
+    color: hsl(257, 40%, 49%);
     border-radius: 75px;
     border-style: none;
     font-size: 18px;
 }
 
+@media(max-width:426px) {
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
 
-@media(max-width:426px){
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bangers&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tiny5&family=Young+Serif&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+    #container {
+        height: 130vh;
+        width: 100vw;
+        background-image: url(./ASSETS/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+    }
 
-#container{
-    height: 130vh;
-    width: 100vw;
-    background-image: url(./ASSETS/bg-mobile.svg);
-    background-repeat: no-repeat;
-    background-color: hsl(257, 40%, 49%);
-}
+    #huddlepic {
+        margin-left: 15px;
+        margin-top: 30px;
+        height: 45px;
+    }
 
-#huddlepic{
-    margin-left: 15px;
-    margin-top: 30px;
-    height: 45px;
-}
+    #flexbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-#flexbox{
-    display: flex;
-    flex-direction: column  ;
-    justify-content: center;
-    align-items: center;
-}
+    #mockups img {
+        margin-top: 40px;
+        margin-left: 2px;
+        height: 250px;
+    }
 
-#mockups img{
-    margin-top: 40px;
-    margin-left: 2px;
-    height: 250px;
-}
+    #text h1 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 31px;
+        line-height: 55px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+    }
 
-#text h1{   
-    margin-top: 50px;
-    margin-bottom: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 31px;
-    line-height: 55px;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-}
+    #text p {
+        padding-left: 45px;
+        padding-right: 40px;
+        font-size: 18px;
+        line-height: 27px;
+        color: white;
+        opacity: 80%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
 
-#text p{
-    padding-left: 45px;
-    padding-right: 40px;
-    font-size: 18px;
-    line-height: 27px;
-    color: white;
-    opacity: 80%;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-}
-
-#rb{
-    margin-top: 30px;
-    margin-left: 115px;
-    height: 50px;
-    width: 200px;
-    background-color: white;
-    color:hsl(257, 40%, 49%);
-    border-radius: 75px;
-    border-style: none;
-    font-size: 18px;
-}
-
-
-
+    #rb {
+        margin-top: 30px;
+        margin-left: 115px;
+        height: 50px;
+        width: 200px;
+        background-color: white;
+        color: hsl(257, 40%, 49%);
+        border-radius: 75px;
+        border-style: none;
+        font-size: 18px;
+    }
 }
