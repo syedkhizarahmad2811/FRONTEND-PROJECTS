@@ -1,0 +1,71 @@
+.head{
+    border: 5px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color:red ;
+    box-sizing:border-box;
+    padding: 10px 40px;
+    width: max-content;
+}
+
+.info{
+     /* padding: 10px 40px; */
+    text-align: justify;
+}
+
+.tiger{
+    float: right;
+    padding-left: 15px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: 5px;
+    border-color: black;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    border:5px solid black;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.lihead{
+    border: 5px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color:red ;
+    box-sizing:border-box;
+    padding: 10px 40px;
+    width: max-content;
+}
+
+.para{
+    text-align: justify;
+}
+
+.libtn{
+    background-color: black;
+    color: white;
+    border: 5px;
+    border-color: black;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;   
+}
+
+.ligerimg{
+    float: right;
+    margin-bottom: 50px;
+}
