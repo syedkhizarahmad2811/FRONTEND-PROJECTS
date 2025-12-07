@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(blue,pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter{
+    height: 40vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+#count{
+    font-size: 52px;
+}
+
+/* #buttons{
+    height: -50px;
+} */
+
+#incc{
+    height: 55px;
+    width: 90px;
+    background-color: black;
+    color:white;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#decrr{
+    height: 55px;
+    width: 90px;
+    background-color: black;
+    color:white;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+
+#resit{
+    height: 55px;
+    width: 90px;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border-radius: 12px;
+}

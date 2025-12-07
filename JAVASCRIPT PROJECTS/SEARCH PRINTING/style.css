@@ -1,0 +1,44 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+
+#inp{
+    height: 50px;
+    width: 250px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 24px;
+    background-color: chocolate;
+}
+
+#btn{
+    margin-top: 25px;
+    border-radius: 7px;
+    height: 56px;
+    width: 258px;   
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+
+#container{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(pink, black);
+}
+
+#para{
+    background: linear-gradient(orange, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

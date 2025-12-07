@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowelle - Beauty for Her</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Glowelle</div>
+        <input type="text" id="search" placeholder="Search products...">
+        <div id="cart-btn">🛒 <span id="cart-count">0</span></div>
+    </header>
+
+
+    <!-- Auth Container -->
+    <div class="auth-container" id="auth-container">
+        <div class="auth-box">
+            <h2 id="auth-title">Login</h2>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="confirm-password" placeholder="Confirm Password" style="display: none;">
+            <button onclick="handleAuth()">Submit</button>
+            <p id="toggle-auth">
+                Don't have an account? <a href="#" onclick="toggleAuth()">Register here</a>
+            </p>
+        </div>
+    </div>
+
+    <section class="hero">
+        <h1>Welcome to Glowelle</h1>
+        <p>Beauty, care, and wellness curated just for you.</p>
+    </section>
+
+    <section class="why-us">
+        <h2>Why Choose Glowelle?</h2>
+        <ul>
+            <li>✨ Premium curated products</li>
+            <li>💄 Trusted by 1M+ women</li>
+            <li>🚚 Fast & free shipping</li>
+        </ul>
+    </section>
+
+    <section class="categories">
+        <h2>Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">Skin care</div>
+            <div class="category-card">Make-up</div>
+            <div class="category-card">Hair care</div>
+            <div class="category-card">Fragrance</div>
+            <div class="category-card">Personal care</div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Shop Products</h2>
+        <div id="product-list" class="product-grid">
+            <!-- JS will populate -->
+        </div>
+    </section>
+
+    <section class="cart-popup" id="cart-popup">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p id="total-price">Total: ₹0</p>
+        <button onclick="checkout()">Checkout</button>
+        <button onclick="closeCart()">Close</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
